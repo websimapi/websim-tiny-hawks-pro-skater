@@ -4,7 +4,6 @@ import * as Matter from 'matter-js';
 const room = new WebsimSocket();
 
 // Physics variables
-const Matter = window.Matter;
 const Engine = Matter.Engine;
 const Render = Matter.Render;
 const Runner = Matter.Runner;
