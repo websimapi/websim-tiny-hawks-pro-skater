@@ -1,9 +1,10 @@
-import Matter from 'matter-js';
+import * as Matter from 'matter-js';
 
 // Initialize WebsimSocket
 const room = new WebsimSocket();
 
 // Physics variables
+const Matter = window.Matter;
 const Engine = Matter.Engine;
 const Render = Matter.Render;
 const Runner = Matter.Runner;
@@ -773,4 +774,3 @@ async function initGame() {
 
 // Start the game
 initGame();
-
